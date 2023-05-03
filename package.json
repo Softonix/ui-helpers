@@ -1,6 +1,6 @@
 {
   "name": "@softonix/ui-helpers",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Softonix collection of useful helper functions for browser env",
   "scripts": {
     "build": "rm -fr dist/* && tsc"
@@ -17,6 +17,10 @@
   "files": [
     "dist/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softonix/ui-helpers"
+  },
   "devDependencies": {
     "typescript": "^5.0.4"
   }
