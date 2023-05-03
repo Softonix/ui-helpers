@@ -1,6 +1,6 @@
 {
   "name": "@softonix/ui-helpers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Softonix collection of useful helper functions for browser env",
   "scripts": {
     "build": "rm -fr dist/* && tsc"
