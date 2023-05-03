@@ -1,0 +1,23 @@
+{
+  "name": "@softonix/ui-helpers",
+  "version": "0.0.5",
+  "description": "Softonix collection of useful helper functions for browser env",
+  "scripts": {
+    "build": "rm -fr dist/* && tsc"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "author": "Andriy Vasylytsya <andriy.vasylytsya@softonix.org>",
+  "license": "MIT",
+  "homepage": "https://softonix.org",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
